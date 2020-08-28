@@ -21,7 +21,6 @@ interface IBusinessReview {
 
 export default class ListScreen extends Component<IProps> {
    render() {
-        debugger;
         const items = this.buildSectionData();
 
         return (
@@ -44,7 +43,6 @@ export default class ListScreen extends Component<IProps> {
     };
 
    private buildSectionData(): SectionListData<IBusinessEntry>[] {
-        debugger;
         const queryData = this.props.navigation.getParam('queryData');
         return queryData.data.search.business;
    }
