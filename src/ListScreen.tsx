@@ -1,9 +1,7 @@
 import React, { Component, ReactElement } from "react";
-import { View, Text, SectionList, SectionListData, SectionListRenderItem } from "react-native";
+import { View, Text, SectionListData } from "react-native";
 import { NavigationScreenProp, NavigationState, NavigationParams, SafeAreaView } from "react-navigation";
-import { ApolloQueryResult } from "@apollo/client";
-import { ScrollView, FlatList } from "react-native-gesture-handler";
-import { Collapse, CollapseHeader } from 'accordion-collapse-react-native';
+import { FlatList } from "react-native-gesture-handler";
 
 interface IProps {
     navigation: NavigationScreenProp<NavigationState, NavigationParams>;

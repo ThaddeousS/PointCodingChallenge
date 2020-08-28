@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import { TextInput, View, Button, NativeSyntheticEvent, NativeTouchEvent } from "react-native";
 import { NavigationScreenProp, NavigationState, NavigationParams } from "react-navigation";
 import { NavigationRoutes } from './NavigationRoutes';
