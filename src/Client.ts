@@ -60,33 +60,3 @@ export default class Client {
         });
     }
 }
-
-/*
-
-    apolloClient.query({
-  query: gql`
-      query Search {
-        search(term: "burrito", location: "san francisco") {
-          total
-          business {
-            name
-            reviews {
-              text
-              rating
-              time_created
-              url
-            }
-          }
-        }
-      }
-    `
-}).then((result) => {
-  debugger;
-  console.log(`Query result: [result: ${result}]`);
-}).catch((reason) => {
-  debugger;
-  console.log(reason);
-});
-
-
-*/
